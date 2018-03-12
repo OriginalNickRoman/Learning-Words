@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="word.start.MeinLearninControler">
+   <children>
+      <Label fx:id="response1" layoutX="310.0" layoutY="97.0" prefHeight="21.0" prefWidth="206.0" />
+      <Label fx:id="response2" layoutX="317.0" layoutY="278.0" prefHeight="21.0" prefWidth="146.0" />
+      <CheckBox layoutX="82.0" layoutY="118.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="353.0" layoutY="118.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="82.0" layoutY="200.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="353.0" layoutY="211.0" mnemonicParsing="false" text="CheckBox" />
+   </children>
+</AnchorPane>

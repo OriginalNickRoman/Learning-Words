@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url('https://marketingland.com/wp-content/ml-loads/2016/05/MachineLearning2_ss_1920.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="word.view.AddNewWord">
+   <children>
+      <TextField fx:id="tf3" layoutX="795.0" layoutY="379.0" prefHeight="50.0" prefWidth="330.0" promptText="INPUT WORD IN ENGLISH">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <TextField fx:id="tf4" layoutX="795.0" layoutY="503.0" prefHeight="50.0" prefWidth="330.0" promptText="INPUT WORD IN UKRAINIAN">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Label fx:id="l1" layoutX="853.0" layoutY="735.0" prefHeight="50.0" prefWidth="207.0" style="-fx-background-color: #e6e6fa;" textFill="LAVENDER">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Button layoutX="860.0" layoutY="623.0" mnemonicParsing="false" onAction="#AddWord" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-color: #000000; -fx-border-radius: 2em; -fx-border-width: 4;" text="ADD">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="28.0" layoutY="760.0" mnemonicParsing="false" onAction="#home" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-color: #000000; -fx-border-radius: 2em; -fx-border-width: 4;" text="HOME">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

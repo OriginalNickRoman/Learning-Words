@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1064.0" prefWidth="1885.0" style="-fx-background-image: url('https://marketingland.com/wp-content/ml-loads/2016/05/MachineLearning2_ss_1920.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="word.view.MeinItemsController">
+   <children>
+      <Button layoutX="1082.0" layoutY="568.0" mnemonicParsing="false" onAction="#learn2" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-radius: 2em; -fx-border-color: #000000; -fx-border-width: 4;" text="U-&gt;E">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="561.0" layoutY="568.0" mnemonicParsing="false" onAction="#learn1" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-color: #000000; -fx-border-radius: 2em; -fx-border-width: 4;" text="E-&gt;U">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="561.0" layoutY="322.0" mnemonicParsing="false" onAction="#Fast1" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-radius: 2em; -fx-border-width: 4; -fx-border-color: #000000;" text="FAST E-&gt;U">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="1075.0" layoutY="329.0" mnemonicParsing="false" onAction="#Fast2" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-color: #000000; -fx-border-radius: 2em; -fx-border-width: 4;" text="FAST U-&gt;E">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

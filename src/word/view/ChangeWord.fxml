@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url('https://marketingland.com/wp-content/ml-loads/2016/05/MachineLearning2_ss_1920.png');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="word.view.ChengeWord">
+   <children>
+      <TextField fx:id="tf5" layoutX="793.0" layoutY="258.0" prefHeight="50.0" prefWidth="330.0" promptText="INPUT WORD FOR CHANGING">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <TextField fx:id="tf6" layoutX="795.0" layoutY="359.0" prefHeight="50.0" prefWidth="330.0" promptText="INPUT NEW WORD IN ENGL">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <TextField fx:id="tf7" layoutX="795.0" layoutY="454.0" prefHeight="50.0" prefWidth="330.0" promptText="INPUT NEW WORD IN UKR">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button layoutX="860.0" layoutY="566.0" mnemonicParsing="false" onAction="#ChengeWord" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-radius: 2em; -fx-border-color: #000000; -fx-border-width: 4;" text="CHANGE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="28.0" layoutY="760.0" mnemonicParsing="false" onAction="#home" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #e6e6fa; -fx-background-radius: 2em; -fx-border-color: #000000; -fx-border-radius: 2em; -fx-border-width: 4;" text="HOME">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Label fx:id="l2" layoutX="872.0" layoutY="693.0" prefHeight="50.0" prefWidth="177.0" style="-fx-background-color: #e6e6fa;">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
